@@ -1,0 +1,35 @@
+             BODY {
+                 margin:0;
+                 font-size:80%;
+             }
+         
+             .marco {
+                 width:1000px;
+                 margin:10px auto 10px auto; /* Centrado horizontal */
+             }
+ 
+             .cabecera {
+                 border:solid orange 1px;
+                 padding:10px;
+             }
+              div > p {
+                border: solid #fabada 2px;
+              }
+
+              p + p {
+                text-transform: uppercase;
+              }
+
+
+             .cuerpo {
+                 padding:10px 0 10px 0;
+                 overflow-x:hidden;
+                 overflow-y:auto; /* Hace que se ajuste a la columna más alta en ff */
+              height:100%; /* Hace que se ajuste a la columna más alta  en ie6 */
+             }
+             .pie {
+                 border:solid orange 1px;
+                 padding:10px;
+                 text-align:center;
+                 font-size:80%;
+             }
